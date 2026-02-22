@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.idea/
+*.wav
+*.txt
+.DS_Store
+*.tsbuildinfo

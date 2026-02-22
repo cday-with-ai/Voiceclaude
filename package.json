@@ -1,0 +1,19 @@
+{
+  "name": "voiceclaude",
+  "version": "1.0.0",
+  "description": "Voice interface for Claude — talk to Claude, Claude talks back",
+  "type": "module",
+  "bin": {
+    "voiceclaude": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
